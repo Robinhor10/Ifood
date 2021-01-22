@@ -1,0 +1,12 @@
+version: "3.7"
+services:
+# nome do meu container sempre ficará esse nome, não gerando varios containers quando usamos o docker não compose  
+  postgres_cadastro:
+    container_name: postgres_cadastro_ifood
+    image: postgres:13.1
+# Definindo variaveis de ambiente
+    environment: 
+      POSTGRES_USER: cadastro
+      POSTGRES_PASSWORD: cadastro
+    ports:
+      - "5432:5432"
