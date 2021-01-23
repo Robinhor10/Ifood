@@ -8,15 +8,13 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-import io.quarkus.hibernate.orm.panache.PanacheEntityBase;
-
 @Path("/restaurantes")
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)
 public class RestauranteResource {
 
     @GET
-    public List<PanacheEntityBase> hello() {
+    public List<Restaurante> hello() {
         return Restaurante.listAll();
     }
 }
