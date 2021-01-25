@@ -19,7 +19,7 @@ public class Prato extends PanacheEntityBase {
 
     public String nome;
     
-    public String descricacao;
+    public String descricao;
 
     @ManyToOne
     public Restaurante restaurante;
