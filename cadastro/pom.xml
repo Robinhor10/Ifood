@@ -32,10 +32,6 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 <dependencies>
     <dependency>
         <groupId>io.quarkus</groupId>
-        <artifactId>quarkus-spring-web</artifactId>
-    </dependency>
-    <dependency>
-        <groupId>io.quarkus</groupId>
         <artifactId>quarkus-resteasy</artifactId>
     </dependency>
     <dependency>
