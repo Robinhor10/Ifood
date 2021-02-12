@@ -3,6 +3,8 @@ package com.github.Robinhor10.Ifood;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.testcontainers.containers.PostgreSQLContainer;
+
 import io.quarkus.test.common.QuarkusTestResourceLifecycleManager;
 
 public class CadastroTestLifecycleManager implements QuarkusTestResourceLifecycleManager {
